@@ -1,9 +1,11 @@
-######## Webcam Object Detection Using Tensorflow-trained Classifier #########
+######## Webcam Stream #########
 #
 # Author: Evan Juras
 # Date: 10/27/19
+# modefied by :Paulius Brickus
 # Description: 
-# this program just displays the video stream from the raspberry pie
+# This code has been taken from ??//
+# and modefied to just displays the video stream from the raspberry pie.
 #
 import os
 import argparse
