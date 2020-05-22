@@ -1,4 +1,4 @@
-# test_model.py
+# Testing_model.py
 ##################################################################
 #
 # Author: Paulius Brickus
