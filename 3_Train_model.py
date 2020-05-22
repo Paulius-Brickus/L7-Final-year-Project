@@ -3,7 +3,7 @@
 # date 3/05/2020
 # 
 #
-#references: Harrison Kinsley/ sentdex
+#references: - Harrison Kinsley/ sentdex
 #link: https://github.com/Sentdex/pygta5/blob/master/Tutorial%20Codes/Part%208-13%20code/train_model.py 
 #this program trains the CNN with the driving data
 
