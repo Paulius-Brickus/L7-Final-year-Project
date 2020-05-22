@@ -1,10 +1,24 @@
+##################################################################
 # Create_data.py
-# author: Paulius Brickus
-# date 3/05/2020
-# project: Assisted Driving
+# Author: Paulius Brickus
+# Date: 22/05/2020
+# 
+# Description: This codes made to capture the topself corner of the screen size of 800x640
+#              and read inputs from the user and store everthing in a file called driving_data
 #
-#This codes made to capture the topself corner of the screen size of 800x640
-#and read inputs from the user and store everthing in a file called driving_data
+# References:
+#        - Evan Juras
+#        - Harrison Kinsley / Sentdex
+#        - Christopher Barnatt / ExplainingComputer.com
+#        - Alex Krizhevsky, Ilya Sutskever & Geoffrey E. Hinton. ImageNet
+#          Classification with Deep Convolutional Neural Networks. NIPS, 2012.
+# Links:
+#     - https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
+#     - https://github.com/sentdex/pygta5/
+#     - https://www.explainingcomputers.com/rasp_pi_robotics.html
+#     - [AlexNet Paper](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+
+
 
 import numpy as np
 from grabscreen import grab_screen
