@@ -1,10 +1,23 @@
-# balance_data.py
-# author: Paulius Brickus
-# date 3/05/2020
-# project: Assisted Driving
+# balancing_data.py
+##################################################################
 #
-#This code is ment to balance the data before runing the training model
-#as if unbalaced data is sent the model might be byass to one spacific command
+# Author: Paulius Brickus
+# Date: 22/05/2020
+# Description: This code is ment to balance the data before runing the training model
+#              as if unbalaced data is sent the model might be byass to one spacific command
+# References:
+#        - Evan Juras
+#        - Harrison Kinsley / Sentdex
+#        - Christopher Barnatt / ExplainingComputer.com
+#        - Alex Krizhevsky, Ilya Sutskever & Geoffrey E. Hinton. ImageNet
+#          Classification with Deep Convolutional Neural Networks. NIPS, 2012.
+# Links:
+#     - https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi
+#     - https://github.com/sentdex/pygta5/
+#     - https://www.explainingcomputers.com/rasp_pi_robotics.html
+#     - [AlexNet Paper](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+
+
 
 from random import shuffle
 import numpy as np
